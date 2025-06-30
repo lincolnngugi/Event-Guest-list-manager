@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+li {
+  margin: 8px 0;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .tag {
+  padding: 3px 6px;
+  margin-right: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.8em;
+}
+
+.Friend {
+  background-color: #4CAF50;
+}
+.Family {
+  background-color: #2196F3;
+}
+.Colleague {
+  background-color: #FF9800;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.attending {
+  color: green;
+}
+
+.not-attending {
+  color: red;
+}
